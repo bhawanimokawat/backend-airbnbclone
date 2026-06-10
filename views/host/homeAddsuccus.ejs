@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Added Successfully</title>
+    <link rel="stylesheet" href="/output.css">
+</head>
+
+<body class="bg-gradient-to-br from-rose-50 to-orange-100 min-h-screen">
+
+    <!-- Navbar -->
+    <%- include('../partials/header') %>
+
+    <!-- Success Card -->
+    <div class="flex justify-center items-center min-h-[85vh] px-4">
+
+        <div class="bg-white max-w-lg w-full p-10 rounded-2xl shadow-2xl text-center">
+
+            <div class="text-7xl mb-5 animate-bounce">
+                🎉
+            </div>
+
+            <h1 class="text-4xl font-bold text-green-600 mb-4">
+                Home Added Successfully!
+            </h1>
+
+            <p class="text-gray-600 text-lg mb-8">
+                Your property has been registered and is now available in the Airbnb system.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+
+                <a href="/"
+                    class="bg-rose-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-rose-600 transition">
+                    🏠 Go Home
+                </a>
+
+                <a href="/host/add-home"
+                    class="bg-gray-200 text-gray-800 px-6 py-3 rounded-xl font-semibold hover:bg-gray-300 transition">
+                    ➕ Add Another Home
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

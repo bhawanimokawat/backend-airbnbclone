@@ -1,0 +1,18 @@
+[
+    {
+        "houseName": "senhouse",
+        "price": "200",
+        "rating": "5",
+        "location": "delhi 43 sector",
+        "image": "https://tse3.mm.bing.net/th/id/OIP.sKQjeoyqW2rzvIamLl4WiAHaE6?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "id": "0.9402660284202102"
+    },
+    {
+        "houseName": "bhawani singh",
+        "price": "2000",
+        "rating": "2.3",
+        "location": "mandawa word 10",
+        "image": "https://tse3.mm.bing.net/th/id/OIP.sKQjeoyqW2rzvIamLl4WiAHaE6?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "id": "0.6111909259024244"
+    }
+]
