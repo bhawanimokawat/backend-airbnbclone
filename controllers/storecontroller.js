@@ -95,7 +95,7 @@ exports.gethomedetails = (req, res, next) => {
           }
 
           res.render('store/home-details', {
-               home: home,
+               home:home,
                pagetitle: 'home Details',
                isLoggedIn: req.session.isLoggedIn,
           });
